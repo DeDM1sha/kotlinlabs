@@ -63,6 +63,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/versionHintTextView" />
 
+        <TextView
+            android:id="@+id/URLCodeHintTextView"
+            style="@style/HintTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/URL_code"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/versionCodeHintTextView" />
+
         <androidx.constraintlayout.widget.Barrier
             android:id="@+id/barrier"
             android:layout_width="wrap_content"
@@ -92,9 +101,17 @@
             style="@style/HintTextView.Value"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="1"
+            tools:text="19.10.21"
             app:layout_constraintStart_toStartOf="@id/barrier"
             app:layout_constraintBaseline_toBaselineOf="@id/versionCodeHintTextView" />
+
+        <TextView
+            style="@style/HintTextView.Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/DeDM1sha/kotlinlabs"
+            app:layout_constraintStart_toStartOf="@id/barrier"
+            app:layout_constraintBaseline_toBaselineOf="@id/URLCodeHintTextView" />
 
         <Button
             android:id="@+id/okButton"
@@ -104,7 +121,7 @@
             android:text="@android:string/ok"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/versionCodeHintTextView"/>
+            app:layout_constraintTop_toBottomOf="@id/URLCodeHintTextView"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
