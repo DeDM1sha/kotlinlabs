@@ -1,0 +1,16 @@
+<resources>
+    <string name="openLab1">Lab # 1</string>
+    <string name="openLab2">Lab # 2</string>
+    <string name="openLab3">Lab # 3</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="about_the_application">About the Application</string>
+    <string name="application_name">Application Name:</string>
+    <string name="version_name">Version Name:</string>
+    <string name="version_code">Version Code:</string>
+    <string name="mainTitle">Satsuk M.M. (MPA21-01)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
