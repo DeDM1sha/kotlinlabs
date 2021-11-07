@@ -13,4 +13,5 @@ interface HasCustomTitle {
     @StringRes
     fun getTitleRes(): Int
 
+
 }

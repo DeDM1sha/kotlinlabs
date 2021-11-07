@@ -76,6 +76,14 @@ class MainActivity : AppCompatActivity(), Navigator {
         launchFragment(Lab3Fragment())
     }
 
+    override fun launchLab4Screen(){
+        launchFragment(Lab4Fragment())
+    }
+
+    override fun launchLab5Screen(){
+        launchFragment(Lab5Fragment())
+    }
+
     override fun showAboutScreen() {
         launchFragment(AboutFragment())
     }

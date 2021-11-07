@@ -25,6 +25,18 @@
         android:text="@string/openLab3"/>
 
     <Button
+        android:id="@+id/button_openLab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/openLab4"/>
+
+    <Button
+        android:id="@+id/button_openLab5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/openLab5"/>
+
+    <Button
         android:id="@+id/aboutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

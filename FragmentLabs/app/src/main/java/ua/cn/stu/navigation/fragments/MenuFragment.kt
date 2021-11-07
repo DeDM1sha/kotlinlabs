@@ -21,6 +21,8 @@ class MenuFragment : Fragment() {
         binding.buttonOpenLab1.setOnClickListener { onLab1Pressed() }
         binding.buttonOpenLab2.setOnClickListener { onLab2Pressed() }
         binding.buttonOpenLab3.setOnClickListener { onLab3Pressed() }
+        binding.buttonOpenLab4.setOnClickListener { onLab4Pressed() }
+        binding.buttonOpenLab5.setOnClickListener { onLab5Pressed() }
         binding.aboutButton.setOnClickListener { onAboutPressed() }
         binding.exitButton.setOnClickListener { onExitPressed() }
         return binding.root
@@ -40,6 +42,14 @@ class MenuFragment : Fragment() {
 
     private fun onLab3Pressed() {
         navigator().launchLab3Screen()
+    }
+
+    private fun onLab4Pressed() {
+        navigator().launchLab4Screen()
+    }
+
+    private fun onLab5Pressed() {
+        navigator().launchLab5Screen()
     }
 
     private fun onAboutPressed() {

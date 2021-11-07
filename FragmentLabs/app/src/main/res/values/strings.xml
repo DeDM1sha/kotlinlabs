@@ -2,6 +2,8 @@
     <string name="openLab1">Lab # 1</string>
     <string name="openLab2">Lab # 2</string>
     <string name="openLab3">Lab # 3</string>
+    <string name="openLab4">Lab # 4</string>
+    <string name="openLab5">Lab # 5</string>
     <string name="exit">Exit</string>
     <string name="about">About</string>
     <string name="about_the_application">About the Application</string>

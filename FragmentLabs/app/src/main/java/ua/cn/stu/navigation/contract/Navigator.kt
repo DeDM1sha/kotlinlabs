@@ -16,6 +16,10 @@ interface Navigator {
 
     fun launchLab3Screen()
 
+    fun launchLab4Screen()
+
+    fun launchLab5Screen()
+
     fun showAboutScreen()
 
     fun goBack()
